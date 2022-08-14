@@ -1,6 +1,6 @@
 import React from "react";
 
-function Reports() {
+function Reports(): JSX.Element {
   return <div className="reports">
     <h1>Reports</h1>
   </div>;

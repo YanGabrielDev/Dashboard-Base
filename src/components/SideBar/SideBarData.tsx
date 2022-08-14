@@ -2,7 +2,14 @@ import React, { useState } from "react";
 import * as IoIcons from "react-icons/io";
 import * as Icons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-export const SidebarData = [
+interface SidebarTypes{
+  title: string,
+  path: string,
+  icons: JSX.Element,
+  cName: string
+
+}
+export const SidebarData=[
   {
     title: "Home",
     path: "/",
