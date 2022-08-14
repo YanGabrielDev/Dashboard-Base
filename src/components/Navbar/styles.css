@@ -4,6 +4,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
+  font-size: 1.5rem;
 }
 .menu-bars {
   margin-left: 2rem;
@@ -18,7 +19,7 @@
   justify-content: center;
   position: fixed;
   top: 0;
-  /* left: -100%; */
+  left: -100%;
   transition: 850ms;
 }
 .nav-menu.active{
@@ -36,7 +37,7 @@
 .nav-text a {
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 18px;
   width: 95%;
   height: 100%;
   display: flex;
@@ -45,7 +46,11 @@
   border-radius: 4px;
 }
 .nav-text a:hover{
-  background-color: gray;
+  background-color: #033dfc;
+}
+
+.nav-menu-items{
+  width: 100%;
 }
 .navbar-toggle{
   color: gray;

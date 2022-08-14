@@ -1,7 +1,9 @@
 import React from "react";
 
-function Produts() {
-  return <div></div>;
+function Products() {
+  return <div className="products">
+    <h1>Products</h1>
+  </div>;
 }
 
-export default Produts;
+export default Products;

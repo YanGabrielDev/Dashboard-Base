@@ -8,8 +8,8 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <BrowserRouter>
-        <Router />
         <Navbar />
+        <Router />
       </BrowserRouter>
     </div>
   );
